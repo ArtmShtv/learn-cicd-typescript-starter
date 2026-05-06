@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getAPIKey } from "../api/auth";
+import { getAPIKey } from "../api/auth.js";
 
 describe("getAPIKey", () => {
   it("returns null when authorization header is missing", () => {
